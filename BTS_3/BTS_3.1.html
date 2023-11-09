@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+    <title>Bootstrap Parte 3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!DOCTYPE html>
+<html>
+<head>
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: center;
+  }
+
+  th {
+    background-color: red;
+    color: white;
+  }
+
+  tr:nth-child(odd) {
+    background-color: black;
+  }
+
+  tr:nth-child(even) {
+    background-color: grey;
+  }
+</style>
+</head>
+<body>
+  
+  <table border="1">
+    <thead>
+      <tr style="background-color: red; color: white;">
+        <th colspan="4">Danger</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background-color: black; color: white;">
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Email</th>
+          <th></th>
+        </tr>
+      <tr style="background-color: grey;">
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>John@example.com</td>
+          <td></td>
+      </tr>
+      <tr style="background-color: black; color: white;">
+          <td>Mary</td>
+          <td>Moe</td>
+          <td>Mary@example.com</td>
+          <td></td>
+      </tr>
+      <tr style="background-color: grey;">
+          <td>July</td>
+          <td>Dooley</td>
+          <td>July@example.com</td>
+          <td></td>
+      </tr>
+    </tbody>
+  </table>
+    <script src="bootstrap.min.js"></script>
+</body>
+</html>

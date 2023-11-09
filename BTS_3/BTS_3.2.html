@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<style>
+  img { 
+        border-radius: 50%;
+        width: 100%;
+  }
+
+      .left-image{
+            float: left; /* Posiziona l'immagine a sinistra */
+        }
+        .right-image {
+            float: right; /* Posiziona l'immagine a destra */
+        }
+  
+    </style>
+</head>
+<body>
+    <button type="button" class="btn btn-outline-primary">Primary</button>
+    <button type="button" class="btn btn-outline-secondary">Secondary</button>
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown button
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2" name="top"><div class="mt-4 p-5 bg-info text-white rounded">
+                immagine della copertina di un album di immagini da collezione
+            </div></div>
+            <div class="col-2 "><img class="float-left" src="AmicoCucciolone.png"></div>
+            <div class="col-2 "><div class="mt-4 p-5 bg-info text-white rounded">
+                immagine di una marca di formaggi
+            </div></div>
+            <div class="col-2"><a target="_blank" href="Galbani.png"><img src="Galbani.png" alt="Forest"></a></div>
+            <div class="col-2 "><div class="mt-4 p-5 bg-info text-white rounded">
+                un paesaggio
+            </div></div>
+            <div class="col-2"><img class = "float-right" src="ImmagineSfondo.png"></div>
+            </div>
+    </div>
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        <a href="#top">clicca qui</a>  
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+    </div>
+    <button type="button" class="btn btn-primary btn-lg btn-block">Block level button</button>
+    <script src="bootstrap.min.js"></script>
+    <script>$().alert('close')</script>
+</body>
+</html>
